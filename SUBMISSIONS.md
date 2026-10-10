@@ -1,4 +1,4 @@
-# JSP submission audit — 10 October 2026
+# JSP submission index — 10 October 2026
 
 This batch submits complete original questions and preserves the distinction between mathematical authorship, formalization, public disclosure and award approval. Jensen Kohlmeyer (JENW1N) is the submitting account; Liam Kruer (lkruer) and all additional documented authors retain their credits. No award entitlement or unconditional historical firstness is asserted.
 
@@ -28,7 +28,7 @@ Original 944 priority evidence: [dated-source comment](https://github.com/TheJus
 
 ## Unlisted complete questions recommended
 
-These are recommendations, not existing catalog awards or merged contribution PRs. Bala’s first two original conjectures share one issue. Green 24 adds the complete asymptotic question; its separate finite-size statement is excluded.
+These are recommendations, not existing catalog awards or merged contribution PRs. Bala’s first two original conjectures share one issue. Green 24 adds the complete asymptotic question; its separate finite-size statement is excluded. The five-leaf tree recommendation combines both multiple-branch patterns from the four-author manuscript with the earlier five-leg spider theorem of Panpa, Imnang and Wasuanankul. It covers the full five-leaf question without claiming the unrestricted Graceful Tree Conjecture.
 
 | Question | Recommendation |
 | --- | --- |
@@ -49,8 +49,9 @@ These are recommendations, not existing catalog awards or merged contribution PR
 | Polynomial minimal graphs of degree at most four are affine | [#4920](https://github.com/TheJustinSunPrize/awards/issues/4920) |
 | Every polynomial minimal graph in domain dimension eight is affine | [#4921](https://github.com/TheJustinSunPrize/awards/issues/4921) |
 | Green 24 / Aaronson: the sharp asymptotic constant for affine copies of {0,1,3} | [#4922](https://github.com/TheJustinSunPrize/awards/issues/4922) |
+| Every finite tree with exactly five leaves is graceful | [#4924](https://github.com/TheJustinSunPrize/awards/issues/4924) |
 
-All 17 recommendation issues were read back from GitHub: open, authored by JENW1N, and exact bodies matched. They cover 18 precise questions. The supplied papers, immutable source links, exact scopes, prior work, authorship interests and limits of verification are recorded per issue. In particular, Wong retains L. Peter / Gro-Tsen priority, Bala A141057 retains Epoch’s positive-index proof, the minimal-graph papers retain Howe/Huffman coauthorship, and the prime-sum computation discloses native_decide trust.
+All 18 recommendation issues were read back from GitHub: open, authored by JENW1N, and exact bodies matched. They cover 19 precise questions. The supplied papers, immutable source links, exact scopes, prior work, authorship interests and limits of verification are recorded per issue. In particular, Wong retains L. Peter / Gro-Tsen priority, Bala A141057 retains Epoch’s positive-index proof, the minimal-graph papers retain Howe/Huffman coauthorship, and the prime-sum computation discloses native_decide trust.
 
 ## Broad catalog entries requiring a scope ruling
 
@@ -73,10 +74,14 @@ Local successful Lean checks: 14(i), 14(ii), 108, 944, 859. Each target’s comp
 ## Exclusions and remaining external steps
 
 - Erdős 10 and partial Lonely Runner work are excluded as requested.
-- The two five-leaf graceful-tree families are not represented as a solution of the general graceful-tree question.
+- The five-leaf graceful-tree recommendation covers every five-leaf tree using the cited earlier spider theorem. It is not represented as a solution of the unrestricted Graceful Tree Conjecture.
 - Circle-packing work is excluded from this batch at the user’s explicit instruction.
 - JSP maintains the index, eligibility and award decisions. Recommendations require catalog acceptance before a contribution can be filed against a new ID.
 - Individual award claims follow the prerequisite merged submission and identity process. No proxy claim was filed for Liam, and no private identity or payment information was published.
 - Existing #289 still needs its author to merge [repair PR lkruer/awards#1](https://github.com/lkruer/awards/pull/1) or apply its prepared commit; JENW1N has no push or merge permission to lkruer/awards. The corrected branch merges without conflicts into current JSP main.
-- The latest check found all ten related JSP PRs unmerged, including the scope-review draft #4701. The 17 recommendations and five-entry scope request remain open with no maintainer response. No Jensen/Liam contribution is directly recorded in current upstream problems, candidates or awards, so the recorded-solver exception is not currently available.
+- The latest check found all ten related JSP PRs unmerged, including the scope-review draft #4701. The 18 recommendations and five-entry scope request remain open with no maintainer response. No Jensen/Liam contribution is directly recorded in current upstream problems, candidates or awards, so the recorded-solver exception is not currently available.
 - Early claim #4702 was edited and closed to remove active award consideration, the outdated representative/payee language, and any implication that this claim establishes accepted scope or priority. A future claim requires the applicable review, merged contribution and identity process.
+
+## Portfolio coverage check
+
+[PORTFOLIO_COVERAGE.json](https://github.com/JENW1N/complete-math-solutions/blob/main/PORTFOLIO_COVERAGE.json) maps all 34 unique entries loaded by the supplied portfolio’s three content scripts at commit `75e0415ab82aaa8aeb2c0a8c475a19eeb0e531f1`: 8 entries have contribution PRs, 4 have precise-scope requests, 19 are covered by problem recommendations, and 3 are excluded at the user’s request. The two five-leaf entries share one complete-question recommendation. Existing 790, 906 and the additional Green 24 record are listed separately. These are coverage and submission records, not proof of prize approval.

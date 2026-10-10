@@ -1,0 +1,202 @@
+{
+  "source_repository": "https://github.com/JENW1N/jensen-portfolio",
+  "source_commit": "75e0415ab82aaa8aeb2c0a8c475a19eeb0e531f1",
+  "source_files": [
+    "math-content.js",
+    "other-math-content.js",
+    "research-content.js"
+  ],
+  "date": "2026-10-10",
+  "note": "Coverage of the supplied portfolio is not a claim that JSP accepted any submission, recognized priority, or awarded a prize.",
+  "entries": [
+    {
+      "id": "erdos-10",
+      "status": "excluded",
+      "reason": "Excluded at the user’s request."
+    },
+    {
+      "id": "erdos-14",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4902"
+    },
+    {
+      "id": "erdos-18b",
+      "status": "precise original question awaiting catalog scope decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4923"
+    },
+    {
+      "id": "erdos-96",
+      "status": "precise original question awaiting catalog scope decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4923"
+    },
+    {
+      "id": "erdos-97",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/289"
+    },
+    {
+      "id": "erdos-108",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4903"
+    },
+    {
+      "id": "erdos-196",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4875"
+    },
+    {
+      "id": "erdos-272",
+      "status": "precise original question awaiting catalog scope decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4923"
+    },
+    {
+      "id": "erdos-354",
+      "status": "precise original question awaiting catalog scope decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4923"
+    },
+    {
+      "id": "erdos-944",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4668"
+    },
+    {
+      "id": "green-15",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4906"
+    },
+    {
+      "id": "green-40",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4907"
+    },
+    {
+      "id": "green-47",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4908"
+    },
+    {
+      "id": "green-51",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4909"
+    },
+    {
+      "id": "erdos-859",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4904"
+    },
+    {
+      "id": "erdos-1062",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4905"
+    },
+    {
+      "id": "ordowski-2",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4910"
+    },
+    {
+      "id": "bala-1",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4911"
+    },
+    {
+      "id": "bala-2",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4911"
+    },
+    {
+      "id": "bala-4",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4912"
+    },
+    {
+      "id": "wilson-integrality",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4913"
+    },
+    {
+      "id": "sauras-altuzarra-1",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4914"
+    },
+    {
+      "id": "triangular-matchstick-prime-sums",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4915"
+    },
+    {
+      "id": "sun-5",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4916"
+    },
+    {
+      "id": "wong-235893",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4917"
+    },
+    {
+      "id": "dillies-convex-vc2",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4918"
+    },
+    {
+      "id": "bala-a141057",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4919"
+    },
+    {
+      "id": "erdos-1057",
+      "status": "submission awaiting review",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4874"
+    },
+    {
+      "id": "quartic-minimal-graphs",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4920"
+    },
+    {
+      "id": "circle-packings",
+      "status": "excluded",
+      "reason": "Excluded at the user’s request because the required full project is unavailable."
+    },
+    {
+      "id": "two-entry-lonely-runner",
+      "status": "excluded",
+      "reason": "Excluded at the user’s request; this supplied work is a partial result."
+    },
+    {
+      "id": "graceful-five-leaf-43",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4924",
+      "scope": "The two portfolio entries supply the multiple-branch cases of the complete five-leaf theorem. The earlier five-leg spider theorem is separately credited; no claim for arbitrary trees is made."
+    },
+    {
+      "id": "graceful-five-leaf-333",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4924",
+      "scope": "The two portfolio entries supply the multiple-branch cases of the complete five-leaf theorem. The earlier five-leg spider theorem is separately credited; no claim for arbitrary trees is made."
+    },
+    {
+      "id": "minimal-graphs-dimension-eight",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4921"
+    }
+  ],
+  "additional_records": [
+    {
+      "id": "green-24",
+      "status": "problem recommendation awaiting catalog decision",
+      "url": "https://github.com/TheJustinSunPrize/awards/issues/4922"
+    },
+    {
+      "id": "erdos-790",
+      "status": "draft supporting-catalog update; scope request pending; early claim withdrawn",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4701"
+    },
+    {
+      "id": "erdos-906",
+      "status": "existing mathematical submission awaiting review; earlier existence proof credited",
+      "url": "https://github.com/TheJustinSunPrize/awards/pull/4700"
+    }
+  ]
+}

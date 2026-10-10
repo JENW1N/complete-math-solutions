@@ -64,4 +64,4 @@ These listings do not assert that every question grouped into the corresponding 
 
 ## Submission record
 
-See [SUBMISSIONS.md](SUBMISSIONS.md) for the filed catalog PRs, unlisted-problem recommendations, exact-scope requests, source chronology and remaining maintainer/author actions.
+See [PORTFOLIO_COVERAGE.json](PORTFOLIO_COVERAGE.json) for the disposition of all 34 supplied portfolio entries. See [SUBMISSIONS.md](SUBMISSIONS.md) for the filed catalog PRs, unlisted-problem recommendations, exact-scope requests, source chronology and remaining maintainer/author actions.
