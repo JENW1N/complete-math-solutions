@@ -40,7 +40,9 @@ noncomputable def g (n : ℕ) : ℤ := by
 contribution used in the verified combinatorial convolution. -/
 theorem g_cast (n : ℕ) : (g n : ℝ) = Bounty.signedRank n := by
   classical
-  simp [g, R, B, Bounty.signedRank, Bounty.smoothRankBound, Bounty.badWindow]
+  change (((R n : ℤ) - (if B n then 1 else 0) : ℤ) : ℝ) =
+    (R n : ℝ) - if B n then 1 else 0
+  split_ifs <;> norm_cast
 
 /-- Exact formula for every natural number, including zero.  The summation is
 over precisely the positive integers at most `n` coprime to six. -/
@@ -67,8 +69,8 @@ theorem exact_formula_nat (n : ℕ) :
       (∑ q ∈ (Finset.Icc 1 n).filter (fun q => q.Coprime 6), R (n / q)) -
         (((Finset.Icc 1 n).filter (fun q => q.Coprime 6)).filter
           (fun q => B (n / q))).card := by
-  simpa only [Bounty.globalUpper, Bounty.lossCores, Bounty.coprimeCores,
-    Bounty.smoothRankBound, Bounty.badWindow, R, B] using Bounty.f_eq_globalUpper n
+  change Erdos1062.f n = Bounty.globalUpper n
+  exact Bounty.f_eq_globalUpper n
 
 /-- Part (i): the exact formula, with the correction inside the integer sum. -/
 theorem part_i (n : ℕ) :
