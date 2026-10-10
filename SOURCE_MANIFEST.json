@@ -49,7 +49,10 @@
     "papers/erdos-272.pdf": "c6dddc6c4ca3eed47b88ad82b7e30ebde447f3f104853cd75e2b03d1667fcead",
     "proofs/Erdos272.lean": "38201774f640e9c673b5e2a7821a1f031adf5bcf59ada9316fcde1f5455ba5bb",
     "papers/erdos354-Kohlmeyer-Kruer.pdf": "1c211d007930cdf705501dd3e8bf749b11886a3cfcec5db005cc1f9c1899701a",
-    "proofs/Erdos354PartI.lean": "3dfc9d6ea68aacd1a2b2d115b265abc66c69e3a3ef2d23d050c41a935e16ca2f"
+    "proofs/Erdos354PartI.lean": "3dfc9d6ea68aacd1a2b2d115b265abc66c69e3a3ef2d23d050c41a935e16ca2f",
+    "papers/graceful-five-leaf-trees.pdf": "a5927bb41ca943a04c3a14706713118842672f977d731735e49ad5f06b3301b1",
+    "proofs/GracefulFiveLeafSource10.lean": "c5ab8dc33b7b657b835e881db96c2c4a0635c60747fb72049c3d3ce3eeca7761",
+    "proofs/GracefulFiveLeafSource11.lean": "074721668eaf52a523eeb41f77df5dbd92ff0c0b8ad4cd6c4cb32b04a93c3c48"
   },
   "works": [
     {
@@ -321,6 +324,19 @@
       "paper": "erdos354-Kohlmeyer-Kruer.pdf",
       "formal": "Erdos354PartI.lean",
       "catalog_scope": "awaiting clarification of the separately stated original question"
+    },
+    {
+      "id": "graceful-five-leaf-trees",
+      "title": "Graceful labelings of five-leaf trees with multiple branch vertices",
+      "authors_and_acknowledgments": "Will Howe, Grant Huffman, Jensen Kohlmeyer and Liam Kruer. The complete five-leaf mathematical conclusion additionally uses the earlier five-leg spider theorem of Panpa, Imnang and Wasuanankul (2025); their contribution is retained. The manuscript discloses substantial OpenAI Codex assistance.",
+      "scope": "The manuscript covers both multiple-branch patterns, (4,3) and (3,3,3). Together with the separately cited 2025 spider theorem and the degree-sum identity, this covers all trees with exactly five leaves. No claim for arbitrary trees is made.",
+      "files": [
+        "papers/graceful-five-leaf-trees.pdf",
+        "proofs/GracefulFiveLeafSource10.lean",
+        "proofs/GracefulFiveLeafSource11.lean"
+      ],
+      "build_status": "Original source bodies preserved; no fresh local compilation and no complete Lean registration of the combined five-leaf theorem.",
+      "scope_note": "notes/five-leaf-scope.md"
     }
   ]
 }

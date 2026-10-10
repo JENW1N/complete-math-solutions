@@ -30,6 +30,7 @@ Completed local Lean checks are recorded separately per target in [verification]
 | Erdős 859 | [PDF](papers/erdos859-divisor-sums.pdf) | [Lean](proofs/Erdos859Counterexample.lean) |
 | Erdős 944 | [PDF](papers/erdos-944.pdf) | [Lean](proofs/Erdos944.lean) |
 | Erdős 1062 | [PDF](papers/erdos1062-fork-free-density.pdf) | [Lean](proofs/Erdos1062PartII.lean) |
+| Five-leaf trees: both multiple-branch patterns | [PDF](papers/graceful-five-leaf-trees.pdf), [complete five-leaf scope note](notes/five-leaf-scope.md) | [Source10](proofs/GracefulFiveLeafSource10.lean), [Source11](proofs/GracefulFiveLeafSource11.lean); validator bodies, not locally replayed |
 
 The mathematical and formalization contributions are distinguished in each prize submission. No private identity documents, payment details or unpublished collaborator correspondence belong in this repository.
 
