@@ -1,0 +1,19 @@
+⚠ [8895/8896] Built FormalConjectures.ErdosProblems.«108» (3.3s)
+warning: FormalConjectures/ErdosProblems/108.lean:36:8: declaration uses `sorry`
+⚠ [8896/8896] Built Solutions.Erdos108 (6.7s)
+warning: Solutions/Erdos108.lean:1296:37: This simp argument is unused:
+  Real.exp_nat_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Solutions/Erdos108.lean:1852:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos108.lean:1853:0: Bounty.target.{u} :
+  ¬(True ↔
+      ∀ r ≥ 4,
+        ∀ k ≥ 2,
+          ∃ f,
+            ∀ (V : Type u) (G : SimpleGraph V),
+              Nonempty V → ↑f ≤ G.chromaticNumber → ∃ H, H.coe.girth ≥ r ∧ H.coe.chromaticNumber ≥ ↑k)
+Build completed successfully (8896 jobs).

@@ -1,0 +1,15 @@
+⚠ [8895/8896] Built FormalConjectures.ErdosProblems.«944» (3.5s)
+warning: FormalConjectures/ErdosProblems/944.lean:44:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:55:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:68:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:79:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:89:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:97:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/944.lean:109:8: declaration uses `sorry`
+⚠ [8896/8896] Built Solutions.Erdos944 (31s)
+warning: Solutions/Erdos944.lean:3:0: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+info: Solutions/Erdos944.lean:9541:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos944.lean:9542:0: Bounty.target.{u} : True ↔ ∀ k ≥ 4, ∀ r ≥ 1, ∃ V G, Erdos944.SimpleGraph.IsErdos944 G k r
+Build completed successfully (8896 jobs).

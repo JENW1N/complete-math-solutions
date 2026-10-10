@@ -1,0 +1,49 @@
+⚠ [8895/8896] Built FormalConjectures.ErdosProblems.«859» (3.7s)
+warning: FormalConjectures/ErdosProblems/859.lean:40:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/859.lean:53:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/859.lean:71:6: declaration uses `sorry`
+ℹ [8896/8896] Built Solutions.Erdos859 (51s)
+info: Solutions/Erdos859.lean:14098:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:14143:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:24475:58: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:31929:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:33107:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:33976:4: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: Solutions/Erdos859.lean:36203:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos859.lean:36204:0: Bounty.target :
+  ¬∃ c₁ > 0,
+      ∃ c₂ > 0,
+        ∃ d,
+          (∀ t > 0, (Erdos859.DivisorSumSet t).HasDensity (d t)) ∧
+            Asymptotics.IsEquivalent Filter.atTop (fun t => d t) fun t => c₁ / Real.log ↑t ^ c₂
+Build completed successfully (8896 jobs).

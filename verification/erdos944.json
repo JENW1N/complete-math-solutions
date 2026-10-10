@@ -1,0 +1,24 @@
+{
+  "target": "erdos944",
+  "module": "Solutions.Erdos944",
+  "source_commit": "8b9db1d8c0ded5398d5e4e4bbdf8f2ec14ce5c23",
+  "command": [
+    "lake",
+    "build",
+    "Solutions.Erdos944"
+  ],
+  "started_utc": "2026-10-10T05:35:16.060166+00:00",
+  "finished_utc": "2026-10-10T05:35:53.990030+00:00",
+  "compiler": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "exit_code": 0,
+  "source_sha256": "8bf7cd0e83463e5f304ad848921c5078d57e8f3411050e705c69a69822abecd5",
+  "wrapper_sha256": "f10e4b93691bde98c457e3a95bf8cc92ece6d883dd9795beb92a1d2d7ec343a4",
+  "axiom_output": [
+    "info: Solutions/Erdos944.lean:9541:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "log": "erdos944.log",
+  "fresh_module_build_reported": true,
+  "cached_imports": true,
+  "passed": true,
+  "limitations": "Uses pinned precompiled Mathlib dependencies. This is Lean compilation and a transitive target-axiom inspection, not a second-kernel check or an exhaustive review of the prose or historical priority."
+}

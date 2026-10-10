@@ -43,7 +43,13 @@
     "papers/erdos-944.pdf": "77e311d97357f98fc33db89ddd63ca6fc3fc5c610bf90075cd9dc1077922ecb8",
     "proofs/Erdos944.lean": "b89b43ce3470e9a3c51164f58f401a038260b0493e167fb6d8a5cf608bffd630",
     "papers/erdos1062-fork-free-density.pdf": "f7fa42bf289cfd28e1dc022ba5262323c9b791a08e585338dc78d2fa2dd7d5ea",
-    "proofs/Erdos1062PartII.lean": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6"
+    "proofs/Erdos1062PartII.lean": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6",
+    "papers/erdos18b-factorial-divisors.pdf": "f89f4f46b9535c5c990a29bf0ddf1eb305123429a3b89dfb508e95c8cc9b2d6a",
+    "proofs/Erdos18b.lean": "4d6ee89617415288e9f127beb3c0e0211c011f891889fcb43d0e16373bd14088",
+    "papers/erdos-272.pdf": "c6dddc6c4ca3eed47b88ad82b7e30ebde447f3f104853cd75e2b03d1667fcead",
+    "proofs/Erdos272.lean": "38201774f640e9c673b5e2a7821a1f031adf5bcf59ada9316fcde1f5455ba5bb",
+    "papers/erdos354-Kohlmeyer-Kruer.pdf": "1c211d007930cdf705501dd3e8bf749b11886a3cfcec5db005cc1f9c1899701a",
+    "proofs/Erdos354PartI.lean": "3dfc9d6ea68aacd1a2b2d115b265abc66c69e3a3ef2d23d050c41a935e16ca2f"
   },
   "works": [
     {
@@ -288,6 +294,33 @@
         "proofs/Erdos1062PartII.lean"
       ],
       "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos18b",
+      "title": "erdos18b",
+      "scope": "The complete separately posed factorial question Erdős 18(b). JSP-000055 also includes other practical-number questions; catalog scope requires clarification.",
+      "credit": "Jensen Kohlmeyer and Liam Kruer; all manuscript acknowledgments retained.",
+      "paper": "erdos18b-factorial-divisors.pdf",
+      "formal": "Erdos18b.lean",
+      "catalog_scope": "awaiting clarification of the separately stated original question"
+    },
+    {
+      "id": "erdos272",
+      "title": "erdos272",
+      "scope": "The complete Szabó linear-error conjecture t(N)=N²/2+O(N). No exact extremal formula is claimed.",
+      "credit": "Jensen Kohlmeyer and Liam Kruer; all manuscript acknowledgments retained.",
+      "paper": "erdos-272.pdf",
+      "formal": "Erdos272.lean",
+      "catalog_scope": "awaiting clarification of the separately stated original question"
+    },
+    {
+      "id": "erdos354i",
+      "title": "erdos354i",
+      "scope": "The complete separately posed multiplier-two question Erdős 354(i). The different multiplier range (1,2) is not claimed.",
+      "credit": "Jensen Kohlmeyer and Liam Kruer; all manuscript acknowledgments retained.",
+      "paper": "erdos354-Kohlmeyer-Kruer.pdf",
+      "formal": "Erdos354PartI.lean",
+      "catalog_scope": "awaiting clarification of the separately stated original question"
     }
   ]
 }

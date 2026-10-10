@@ -46,3 +46,15 @@ lake build Solutions.Erdos14i Solutions.Erdos14ii Solutions.Erdos108 Solutions.E
 The wrappers under `Solutions/` each print the target and its complete axiom closure. Expected dependencies are `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` is permitted. `accepted/PROVENANCE.json` binds each original proof body to its public service download and SHA-256. `references/PROVENANCE.json` records the frozen reference-source hashes. Erdős 272’s wrapper is also available for the separately identified Szabó linear-error variant.
 
 A full fresh proof compilation can be lengthy, especially for Erdős 1062. Logs report cached-library reuse explicitly; they do not claim a fresh build of Lean or all of Mathlib.
+
+## Catalog scope under review
+
+The following manuscripts settle separately stated original questions. The broader JSP entries require a scope ruling before a complete-solution catalog submission.
+
+| Original question | Complete mathematical proof | Companion source |
+| --- | --- | --- |
+| Erdős 18(b), factorial divisors | [PDF](papers/erdos18b-factorial-divisors.pdf) | [Lean](proofs/Erdos18b.lean) |
+| Szabó’s linear-error variant of Erdős 272 | [PDF](papers/erdos-272.pdf) | [Lean](proofs/Erdos272.lean) |
+| Erdős 354(i), multiplier two | [PDF](papers/erdos354-Kohlmeyer-Kruer.pdf) | [Lean](proofs/Erdos354PartI.lean) |
+
+These listings do not assert that every question grouped into the corresponding JSP records has been resolved.

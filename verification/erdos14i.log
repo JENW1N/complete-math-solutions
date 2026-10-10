@@ -1,0 +1,14 @@
+⚠ [8895/8896] Replayed FormalConjectures.ErdosProblems.«14»
+warning: FormalConjectures/ErdosProblems/14.lean:51:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/14.lean:58:8: declaration uses `sorry`
+⚠ [8896/8896] Replayed Solutions.Erdos14i
+warning: Solutions/Erdos14i.lean:3:0: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+warning: Solutions/Erdos14i.lean:656:22: Declaration contains the pattern the expression ∃ b,
+  n ∈ u₁ → b ∈ s ∧ 3 * H + 3 * b = n * (K + 1). Did you mean ∃ b, n ∈ u₁ ∧ b ∈ s ∧ 3 * H + 3 * b = n * (K + 1)?
+
+Note: This linter can be disabled with `set_option linter.style.existsImplication false`
+info: Solutions/Erdos14i.lean:1239:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos14i.lean:1240:0: Bounty.target : True ↔ ∀ (A : Set ℕ), ∀ ε > 0, Erdos14.almostSquareRoot ε =O[Filter.atTop] Erdos14.nonUniqueSumCount A
+Build completed successfully (8896 jobs).
