@@ -1,4 +1,4 @@
-# JSP submission index — 10 October 2026
+# JSP submission audit — 10 October 2026
 
 This batch submits complete original questions and preserves the distinction between mathematical authorship, formalization, public disclosure and award approval. Jensen Kohlmeyer (JENW1N) is the submitting account; Liam Kruer (lkruer) and all additional documented authors retain their credits. No award entitlement or unconditional historical firstness is asserted.
 
@@ -17,10 +17,10 @@ All four PRs are open and attached to the chat. Remote bodies match the prepared
 
 | Result | Existing PR | Action / scope |
 | --- | --- | --- |
-| Erdős 97 | [#289](https://github.com/TheJustinSunPrize/awards/pull/289) | Preserves Liam Price, Liam Kruer and Jensen Kohlmeyer. [Two-line correction prepared](https://github.com/JENW1N/awards/commit/4df875b2bc9666e79f541270fc977f418933e304) and [linked to the PR](https://github.com/TheJustinSunPrize/awards/pull/289#issuecomment-6094319413); only the repository owner can apply it. |
+| Erdős 97 | [#289](https://github.com/TheJustinSunPrize/awards/pull/289) | Preserves Liam Price, Liam Kruer and Jensen Kohlmeyer. [Two-line correction prepared](https://github.com/JENW1N/awards/commit/4df875b2bc9666e79f541270fc977f418933e304), now offered as mergeable [repair PR lkruer/awards#1](https://github.com/lkruer/awards/pull/1) and [linked to the submission](https://github.com/TheJustinSunPrize/awards/pull/289#issuecomment-6094319413). Liam or an authorized maintainer must apply it. |
 | Erdős 196 | [#4875](https://github.com/TheJustinSunPrize/awards/pull/4875) | Existing submission retained. It distinguishes September service verification from public disclosure and Boon Suan Ho’s earlier arXiv publication. |
 | Erdős 1057 | [#4874](https://github.com/TheJustinSunPrize/awards/pull/4874) | Existing submission retained; Will Howe and Grant Huffman remain mathematical coauthors. |
-| Erdős 790 | [#4701](https://github.com/TheJustinSunPrize/awards/pull/4701) | Existing formalization submission retained; Samuel Korsky’s mathematics and HongJin HE’s earlier formalization are disclosed. |
+| Erdős 790 | [#4701](https://github.com/TheJustinSunPrize/awards/pull/4701) | Converted to draft for scope review. It now changes only publication references; the broader record remains Open with Lean proof No. Samuel Korsky’s mathematics and HongJin HE’s earlier formalization are credited. Early [claim #4702](https://github.com/TheJustinSunPrize/awards/issues/4702) was withdrawn and closed. |
 | Erdős 906 | [#4700](https://github.com/TheJustinSunPrize/awards/pull/4700) | Existing complete submission retained; no duplicate PR. |
 | Erdős 944 | [#4668](https://github.com/TheJustinSunPrize/awards/pull/4668) | Added original accepted-source dates and the coauthors’ reproducible original formalization. The later prescribed-order bridge remains credited to the PR author. |
 
@@ -54,12 +54,13 @@ All 17 recommendation issues were read back from GitHub: open, authored by JENW1
 
 ## Broad catalog entries requiring a scope ruling
 
-[Recommendation / scope request #4923](https://github.com/TheJustinSunPrize/awards/issues/4923) identifies four complete original questions separately from broader catalog wording:
+[Recommendation / scope request #4923](https://github.com/TheJustinSunPrize/awards/issues/4923) identifies five sets of complete original questions separately from broader catalog wording:
 
 - Erdős 18(b): factorial divisor counts, rather than every practical-number question in JSP-000055.
 - Erdős 96: refutation of the linear-bound conjecture, rather than an exact extremal growth formula in JSP-000109.
 - Erdős 272: Szabó’s N²/2 + O(N) conjecture, rather than an exact extremal formula in JSP-000233.
 - Erdős 354(i): multiplier two, rather than the separate multiplier range (1,2) in JSP-000294.
+- Erdős 790: the two explicitly posed subsidiary questions and the exponent-one estimate, rather than an exact extremal order in JSP-000649. The existing PR is a draft and its early award claim is withdrawn.
 
 No broader record was marked solved on the strength of these narrower statements. The complete named questions can proceed once JSP confirms a suitable target/ID.
 
@@ -76,4 +77,6 @@ Local successful Lean checks: 14(i), 14(ii), 108, 944, 859. Each target’s comp
 - Circle-packing work is excluded from this batch at the user’s explicit instruction.
 - JSP maintains the index, eligibility and award decisions. Recommendations require catalog acceptance before a contribution can be filed against a new ID.
 - Individual award claims follow the prerequisite merged submission and identity process. No proxy claim was filed for Liam, and no private identity or payment information was published.
-- Existing #289 still needs its author to apply [the prepared index-only compliance correction](https://github.com/JENW1N/awards/commit/4df875b2bc9666e79f541270fc977f418933e304); JENW1N has no push permission to lkruer/awards.
+- Existing #289 still needs its author to merge [repair PR lkruer/awards#1](https://github.com/lkruer/awards/pull/1) or apply its prepared commit; JENW1N has no push or merge permission to lkruer/awards. The corrected branch merges without conflicts into current JSP main.
+- The latest check found all ten related JSP PRs unmerged, including the scope-review draft #4701. The 17 recommendations and five-entry scope request remain open with no maintainer response. No Jensen/Liam contribution is directly recorded in current upstream problems, candidates or awards, so the recorded-solver exception is not currently available.
+- Early claim #4702 was edited and closed to remove active award consideration, the outdated representative/payee language, and any implication that this claim establishes accepted scope or priority. A future claim requires the applicable review, merged contribution and identity process.

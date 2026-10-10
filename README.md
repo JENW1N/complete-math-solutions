@@ -4,7 +4,7 @@ This is Jensen Kohlmeyer’s public source edition of work coauthored with Liam 
 
 The original files are copied without mathematical edits from the authors’ supplied portfolio materials. This publication does not backdate the files or claim priority over earlier literature. `SOURCE_MANIFEST.json` records SHA-256 hashes, exact scopes and credits. Dated Conjectures.io records and earlier original repositories are independent evidence where linked by the JSP submissions. A manuscript date alone is not proof of public disclosure.
 
-Fresh Lean build results will be recorded separately per target. Preserving a Lean file is not a claim that this whole collection has passed a clean build. Some files are validator submission bodies and require the stated imports, namespace and pinned dependencies.
+Completed local Lean checks are recorded separately per target in [verification](verification/README.md). Preserving a Lean file is not a claim that this whole collection has passed a clean build. Some files are validator submission bodies and require the stated imports, namespace and pinned dependencies.
 
 | Work | Manuscript | Original proof source |
 | --- | --- | --- |
@@ -53,11 +53,13 @@ The following manuscripts settle separately stated original questions. The broad
 
 | Original question | Complete mathematical proof | Companion source |
 | --- | --- | --- |
+| Erdős 96, failure of a linear bound | [Joint 96/97 manuscript](https://github.com/lkruer/erdos-96-97-proof/blob/0e98f5f9bdaf36007e3eb405cbefe2eda778a9b2/96-97.pdf) | [Lean](https://github.com/lkruer/erdos-96-97-proof/blob/0e98f5f9bdaf36007e3eb405cbefe2eda778a9b2/Erdos9697Complete.lean) |
 | Erdős 18(b), factorial divisors | [PDF](papers/erdos18b-factorial-divisors.pdf) | [Lean](proofs/Erdos18b.lean) |
 | Szabó’s linear-error variant of Erdős 272 | [PDF](papers/erdos-272.pdf) | [Lean](proofs/Erdos272.lean) |
 | Erdős 354(i), multiplier two | [PDF](papers/erdos354-Kohlmeyer-Kruer.pdf) | [Lean](proofs/Erdos354PartI.lean) |
+| Erdős 790, two explicit subsidiary questions (mathematics by Samuel Korsky) | [Original paper](https://drive.google.com/file/d/1S77Jwk5i9naiKJ_IQTK5_4Vh-X4LUfCf/view) | [Independent Lean formalization](https://github.com/JENW1N/erdos790-lean/tree/44a5c97f66dd67cef224af0f51d04e0875e87202) |
 
-These listings do not assert that every question grouped into the corresponding JSP records has been resolved.
+These listings do not assert that every question grouped into the corresponding JSP records has been resolved. HongJin HE’s earlier formalization of the Erdős 790 bounds remains credited in the linked submission record.
 
 ## Submission record
 
