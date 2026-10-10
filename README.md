@@ -58,3 +58,7 @@ The following manuscripts settle separately stated original questions. The broad
 | Erdős 354(i), multiplier two | [PDF](papers/erdos354-Kohlmeyer-Kruer.pdf) | [Lean](proofs/Erdos354PartI.lean) |
 
 These listings do not assert that every question grouped into the corresponding JSP records has been resolved.
+
+## Submission record
+
+See [SUBMISSIONS.md](SUBMISSIONS.md) for the filed catalog PRs, unlisted-problem recommendations, exact-scope requests, source chronology and remaining maintainer/author actions.

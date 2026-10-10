@@ -6,4 +6,4 @@ Verified targets: Erdős 14(i), 14(ii), 108, 944 and 859. The recorded 14(i) run
 
 The reference conjecture files contain admitted problem declarations. Their compiler warnings are visible in the logs; the final target axiom closures do not include `sorryAx`. These logs do not claim that every declaration in the reference library has been proved.
 
-Erdős 1062(ii) and the Szabó variant of 272 are not yet included in this published set of completed local reports. The service records remain separate evidence for those targets. No second-kernel or new independent human mathematical review is claimed.
+Erdős 1062(ii) and the Szabó variant of 272 are not included in this published set of completed local reports. The optional 1062(ii) local run was stopped before completion; no local pass is claimed. No new local run of 272 completed in this batch. The service records remain separate evidence for those targets. No second-kernel or new independent human mathematical review is claimed.
