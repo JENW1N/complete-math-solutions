@@ -1,0 +1,29 @@
+Erdos1062Full.g_cast (n : ℕ) : ↑(Erdos1062Full.g n) = Bounty.signedRank n
+'Erdos1062Full.g_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.exact_formula_real (n : ℕ) :
+  ↑(Erdos1062.f n) = ∑ q ∈ Finset.Icc 1 n with q.Coprime 6, ↑(Erdos1062Full.g (n / q))
+'Erdos1062Full.exact_formula_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.exact_formula (n : ℕ) : ↑(Erdos1062.f n) = ∑ q ∈ Finset.Icc 1 n with q.Coprime 6, Erdos1062Full.g (n / q)
+'Erdos1062Full.exact_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.exact_formula_nat (n : ℕ) :
+  Erdos1062.f n =
+    ∑ q ∈ Finset.Icc 1 n with q.Coprime 6, Erdos1062Full.R (n / q) -
+      {q ∈ {q ∈ Finset.Icc 1 n | q.Coprime 6} | Erdos1062Full.B (n / q)}.card
+'Erdos1062Full.exact_formula_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.part_i (n : ℕ) : ↑(Erdos1062.f n) = ∑ q ∈ Finset.Icc 1 n with q.Coprime 6, Erdos1062Full.g (n / q)
+'Erdos1062Full.part_i' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.density_converges :
+  Filter.Tendsto (fun n => ↑(Erdos1062.f n) / ↑n) Filter.atTop (nhds Bounty.explicitDensity)
+verification/Erdos1062FullAudit.lean:14:0: warning: This file has no module docstring (`/-! ... -/`). Add one after the imports to document the file.
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+'Erdos1062Full.density_converges' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.density_irrational : Irrational Bounty.explicitDensity
+'Erdos1062Full.density_irrational' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.part_ii : ∃ l, Filter.Tendsto (fun n => ↑(Erdos1062.f n) / ↑n) Filter.atTop (nhds l) ∧ Irrational l
+'Erdos1062Full.part_ii' depends on axioms: [propext, Classical.choice, Quot.sound]
+Erdos1062Full.full_scope :
+  (∀ (n : ℕ), ↑(Erdos1062.f n) = ∑ q ∈ Finset.Icc 1 n with q.Coprime 6, Erdos1062Full.g (n / q)) ∧
+    Filter.Tendsto (fun n => ↑(Erdos1062.f n) / ↑n) Filter.atTop (nhds Bounty.explicitDensity) ∧
+      Irrational Bounty.explicitDensity
+'Erdos1062Full.full_scope' depends on axioms: [propext, Classical.choice, Quot.sound]

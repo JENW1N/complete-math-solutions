@@ -1,0 +1,21 @@
+{
+  "target": "Bounty.target",
+  "module": "Solutions.Erdos1062",
+  "command": [
+    "lake",
+    "build",
+    "Solutions.Erdos1062"
+  ],
+  "exit_code": 0,
+  "fresh_module_seconds_reported": 791,
+  "log_created_utc": "2026-10-10T06:02:50.568331+00:00",
+  "log_finished_utc": "2026-10-10T06:17:31.626404+00:00",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "log": "erdos1062-original-build.log",
+  "accepted_source_sha256": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6",
+  "limitations": "Original part (ii) module compiled afresh in the separate checkout, using precompiled pinned Mathlib libraries. It contains the internal finite formula, but this record alone is not the full-scope wrapper audit."
+}

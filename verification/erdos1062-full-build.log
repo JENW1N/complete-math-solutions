@@ -1,0 +1,60 @@
+⚠ [8895/8897] Replayed FormalConjectures.ErdosProblems.«1062»
+warning: FormalConjectures/ErdosProblems/1062.lean:46:8: declaration uses `sorry`
+warning: FormalConjectures/ErdosProblems/1062.lean:79:8: declaration uses `sorry`
+⚠ [8896/8897] Replayed Solutions.Erdos1062
+warning: Solutions/Erdos1062.lean:54118:0: Definition `Bounty.projectedLattice_discreteTopology` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:54228:0: Definition `Bounty.orthogonalProjectedLattice_discreteTopology` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:54257:0: Definition `Bounty.orthogonalProjectedLattice_isZLattice` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:55513:0: Definition `Bounty.exists_davenport_gaussian` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:55718:0: Definition `Bounty.exists_davenport_rounding` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:60048:0: Definition `Bounty.compositionArray_nonempty` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Solutions/Erdos1062.lean:61018:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Solutions/Erdos1062.lean:65696:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Solutions/Erdos1062.lean:68010:0: Definition `Bounty.returnBracket_nonempty` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+info: Solutions/Erdos1062.lean:70864:6: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Solutions/Erdos1062.lean:72267:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Solutions/Erdos1062.lean:73904:0: Definition `Bounty.rational_density_fixed_return_approximation` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+info: Solutions/Erdos1062.lean:74220:0: 'Bounty.target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062.lean:74221:0: Bounty.target : (∃ l, Filter.Tendsto (fun n => ↑(Erdos1062.f n) / ↑n) Filter.atTop (nhds l) ∧ Irrational l) ↔ True
+ℹ [8897/8897] Built Solutions.Erdos1062Full (4.0s)
+info: Solutions/Erdos1062Full.lean:109:0: 'Erdos1062Full.g_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:110:0: 'Erdos1062Full.exact_formula_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:111:0: 'Erdos1062Full.exact_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:112:0: 'Erdos1062Full.exact_formula_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:113:0: 'Erdos1062Full.part_i' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:114:0: 'Erdos1062Full.density_converges' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:115:0: 'Erdos1062Full.density_irrational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:116:0: 'Erdos1062Full.part_ii' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Solutions/Erdos1062Full.lean:117:0: 'Erdos1062Full.full_scope' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8897 jobs).

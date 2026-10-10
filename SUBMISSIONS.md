@@ -9,9 +9,9 @@ This batch submits complete original questions and preserves the distinction bet
 | erdos14 | [4902](https://github.com/TheJustinSunPrize/awards/pull/4902) | mathematical solver and original Lean formalization |
 | erdos108 | [4903](https://github.com/TheJustinSunPrize/awards/pull/4903) | mathematical solver and original Lean formalization |
 | erdos859 | [4904](https://github.com/TheJustinSunPrize/awards/pull/4904) | mathematical solver and original Lean formalization |
-| erdos1062 | [4905](https://github.com/TheJustinSunPrize/awards/pull/4905) | mathematical solver |
+| erdos1062 | [4905](https://github.com/TheJustinSunPrize/awards/pull/4905) | mathematical solver; complete Lean formalization now verified for the same submission |
 
-All four PRs are open and attached to the chat. Remote bodies match the prepared bodies, and each diff changes only permitted fields of one relevant catalog. The first three include complete original Lean proof records and local successful checks. Erdős 1062 is a complete mathematical submission; its accepted Lean theorem is only the separately identified irrational-limit part (ii), so the PR does not claim a complete formalization of the whole catalog entry.
+All four PRs are open and attached to the chat. Remote bodies match the prepared bodies, and each diff changes only permitted fields of one relevant catalog. The first three include complete original Lean proof records and local successful checks. Erdős 1062 was initially mathematical-only because its service certificate names part (ii). The October 10 full-scope wrapper now exposes the internal exact formula and combines it with irrational-density convergence. Clean source `ab42bf613bd773f78a0350c5869dcccfaab1faed` passed the complete local build and axiom audit; the same PR is the venue for the full Lean submission. This is separate from the September service certificate.
 
 ## Existing submissions and attribution
 
@@ -69,7 +69,7 @@ No broader record was marked solved on the strength of these narrower statements
 
 Original coauthor-controlled source edition: [JENW1N/complete-math-solutions](https://github.com/JENW1N/complete-math-solutions), branch main. The primary accepted-body commit is `8b9db1d8c0ded5398d5e4e4bbdf8f2ec14ce5c23`; reports and additional named-question manuscripts are in `a624e9de77e0bd8868e7103f8b379f9dbd86b607`. Manuscript and source bytes are hashed. Original files were not normalized, backdated or mathematically edited.
 
-Local successful Lean checks: 14(i), 14(ii), 108, 944, 859. Each target’s complete axiom closure contains exactly propext, Classical.choice and Quot.sound. Dependency cache reuse and the replayed 14(i) module are disclosed. Reference-file admitted statements are not dependencies of the final proof targets. The optional 1062(ii) replay was stopped before completion because the broader catalog submission is mathematical-only; no local pass is claimed. The queued 272 run was not executed. Their service records are separate evidence.
+Local successful Lean checks: 14(i), 14(ii), 108, 944, 859. Each target’s complete axiom closure contains exactly propext, Classical.choice and Quot.sound. Dependency cache reuse and the replayed 14(i) module are disclosed. Reference-file admitted statements are not dependencies of the final proof targets. The earlier optional 1062(ii) replay was stopped before completion and remains an incomplete run. A subsequent separate-checkout replay and full-scope audit passed on October 10; see `verification/erdos1062-full.json`. The queued 272 run was not executed. Their service records are separate evidence.
 
 ## Exclusions and remaining external steps
 

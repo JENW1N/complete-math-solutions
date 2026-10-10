@@ -1,0 +1,88 @@
+{
+  "source_commit_at_run": "ab42bf613bd773f78a0350c5869dcccfaab1faed",
+  "worktree_status_at_run": [],
+  "compiler": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "build": {
+    "command": [
+      "lake",
+      "build",
+      "Solutions.Erdos1062Full"
+    ],
+    "started_utc": "2026-10-10T06:18:03.679364+00:00",
+    "finished_utc": "2026-10-10T06:18:10.577565+00:00",
+    "exit_code": 0,
+    "log": "erdos1062-full-build.log"
+  },
+  "audit": {
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      "verification/Erdos1062FullAudit.lean"
+    ],
+    "started_utc": "2026-10-10T06:18:10.577678+00:00",
+    "finished_utc": "2026-10-10T06:18:14.923305+00:00",
+    "exit_code": 0,
+    "log": "erdos1062-full-axioms.log"
+  },
+  "axiom_closures": {
+    "Erdos1062Full.g_cast": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.exact_formula_real": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.exact_formula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.exact_formula_nat": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.part_i": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.density_converges": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.density_irrational": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.part_ii": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos1062Full.full_scope": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_sha256": {
+    "accepted/erdos1062.lean": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6",
+    "Solutions/Erdos1062.lean": "8ac93f4f53c42e98d147eb2d6b0a8ddcebf1a6d67441e506569efa404a495c96",
+    "Solutions/Erdos1062Full.lean": "24bbf472241cc01c68dd0fd89ccbbb98b5dbc8c6a4db7f1196828f22ba63c6af",
+    "verification/Erdos1062FullAudit.lean": "3abb60927425c46b52112d532b85dc46a60cdcd446ed389f9ed1d375543ccd86",
+    "FormalConjectures/ErdosProblems/1062.lean": "51612a3fc31fbeb7b29bb9c8d54c5c27ecaf0790bc4c64345073e690aaffe199",
+    "TaskSupport.lean": "58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+    "lakefile.toml": "c6afd2eb4db42d36c4a142e91c4bc26971b4e91213988c68570cf57ef8094032",
+    "lake-manifest.json": "c899b21d86ec9a850506f11f19f59d7e6cb69a53774c99b2053de408803f2fd6"
+  },
+  "passed": true,
+  "limitations": "Uses pinned precompiled Lean/Mathlib dependencies; this is ordinary Lean compilation and complete transitive axiom inspection, not a second-kernel or independent human mathematical review. The full formula and direct density statements are audited separately from the reference file, which contains admitted declarations."
+}

@@ -44,3 +44,14 @@ Reference files intentionally preserve their original admitted conjectures.
 Those placeholders must not appear in the audited proof dependency closure.
 The full proof's audit is the relevant evidence, rather than a grep claim that
 the entire reference library is complete.
+
+## Completed local verification
+
+The clean proof commit `ab42bf613bd773f78a0350c5869dcccfaab1faed` passed
+`lake build Solutions.Erdos1062Full` and
+`lake env lean verification/Erdos1062FullAudit.lean` on October 10, 2026.
+The final audit completed at 06:18:14.923305 UTC. All nine exported declarations,
+including `Erdos1062Full.full_scope`, use exactly `propext`, `Classical.choice`,
+and `Quot.sound`. See the [verification record](verification/erdos1062-full.json)
+and [logs](verification/README.md). This evidence commit adds logs and
+documentation without changing the selected proof sources.
