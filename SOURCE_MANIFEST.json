@@ -1,0 +1,293 @@
+{
+  "publication_note": "Published from the coauthors’ supplied manuscripts and proof files by Jensen Kohlmeyer. File hashes establish this edition, not an earlier publication date. Manuscript dates are not independently certified disclosure dates. Original acknowledgments and third-party provenance remain in each file.",
+  "sha256": {
+    "papers/Green15-Kohlmeyer-Kruer.pdf": "95b9852608f12f752588293594c3387377164f1997a88a0699240dd09f5aaf06",
+    "proofs/Green15.lean": "c27ba01ca1195ebbec6a30b3166adee83977793acf744d64783b6a94db318ba5",
+    "papers/green40-covering-codes.pdf": "bc8a5fc1e892706d33dc9e0554e722f31356219d24291ae9786e875784b0eccd",
+    "proofs/Green40RadiusTwo.lean": "b17d7d71a781b530f2d218b818e59deb5a788b046aa405b1ca05b39d5821c6a1",
+    "papers/Green47-Kohlmeyer-Kruer.pdf": "e6e4ad3d17ed73ba6e04dfe3d3deafe92b1f055ab9e281148dc47a87b763b20c",
+    "proofs/Green47Counterexample.lean": "eddeff2c83de970aab5390fb0684a147712897ef4ed2e8b9cf755d4631152388",
+    "papers/green51-one-half.pdf": "1ab6ba7076ffdc801d8e3860217cbdd6478625bd70199abf867c334f3cec5b38",
+    "proofs/Green51OneHalf.lean": "973a3078dafd990077f6bb90f7195f9780623e0c1a9d13e629638f4b30a104bd",
+    "papers/ordowski-conjecture-2.pdf": "23dd34ec07e6908b975b0a98da5465791ddd15c0ce5119a097ad4c59f208e22b",
+    "proofs/OrdowskiConjecture2.lean": "7a1e15ee372673d6762465f23c534ce481e8b6efa85f2cdab4a789499c74a43e",
+    "papers/bala-conjectures-1-and-2.pdf": "f3de8d27c68aeaa5c2610a4125f34ed828afcc66b785ffd602968b08bfc8b2c5",
+    "proofs/BalaConjectures1And2.lean": "58d451e7770120649275bcffa89e53ae5ee03bbc52967da76e7e730b96e70515",
+    "papers/bala-conjecture-4.pdf": "f1ec794a502086e7b6690625db4c95bc60591f85d8e3f1b342bb3d928ccc651d",
+    "proofs/BalaConjecture4.lean": "9a773328b98b929ad89ca0876e678d662cc9e2e5179e913ebd2554468fe02e33",
+    "papers/wilson-integrality-a060841.pdf": "f47e988decb7d496373220ce98a510109a7f0e22cd28e308689ed08a3be81bb1",
+    "proofs/Wilson_Integrality_Conjecture_A060841.lean": "7277b9b9d0f1f325b91bb18d100bd0f6ca47bc505b3341085252a82fa984d55d",
+    "papers/sauras-altuzarra-conjecture-i.pdf": "6c93b05bc98b9b1ea17821adf37ff3baa9074e7badfdcbfae170920087b24a12",
+    "proofs/SaurasAltuzarraConjectureI.lean": "9978408552a707511113786637c512937ceb58171e71bab87494f6f04e1d5932",
+    "papers/triangular-matchstick-prime-sums.pdf": "44966300dd493390656cdfd7b37c760119b2c342d8ed64159a4c6061b2447e44",
+    "proofs/TriangularMatchstickPrimeSums.lean": "187aa60f0f664b022bf73ade8d6f42bbc3615bb46211123bcbd3d6e702f60935",
+    "papers/sun-conjecture-5.pdf": "94c2ae4671176270960f17cc30a21bcbccb27255fe614eec088ca19e291a9918",
+    "proofs/SunConjecture5.lean": "7ff96b71b708af615efc0695a70dae1a65ab02041e9b2f2f9b0b8685953fc847",
+    "papers/wong-235893.pdf": "3863702a34a26afde85c7e5a8c5a325f242a88c06d6c4f740cfbb6c10e044b99",
+    "proofs/Wong235893.lean": "981e08eb1c9e37773b9e5af771f769a1f9807e539e2c1c98652704027e8990d8",
+    "papers/dillies-convex-vc2.pdf": "306b4b47a6adb7c84144bed24afcafbdf2d459b992b34558e125558a4e84e349",
+    "proofs/DilliesConvexVC2Conjecture.lean": "4b91130db757f8844bcfde4eff377010bcc09f5412d61d64288b32a3e7ef00c7",
+    "papers/bala-a141057-supercongruence.pdf": "49b251f19d0d88926d7bc9b2ddb26ef338685ccfe8446320bdb89c315750529c",
+    "proofs/BalaA141057Conjecture.lean": "610c9c905b2f65a2f5082734541482ca7ccffd78c93cf483a3ea52f493618caa",
+    "papers/quartic-minimal-graphs.pdf": "5f05d68bcca0ff57e3f8e7cdd333a881633cc23687453c3c75ac748a2d848b49",
+    "proofs/QuarticMinimalGraphs.lean": "805bf4ea30894ebf417d190e6712fa76609593cb0cbed5a1e42c38e475fdddcb",
+    "papers/polynomial-minimal-graphs-dimension-eight.pdf": "cfcce1fd381d1c9ff278c26f2ef21382b71ad4fd7d4eda213aefd41a48d33e61",
+    "proofs/PolynomialMinimalGraphsDimensionEight.lean": "e3862c1c40e7ffad3fe117f0685c178ecfbca34f8b64d380f52b558ea349ccd9",
+    "papers/erdos-14.pdf": "4f9a4337c5b603c76fdd118024a0d5f69f1ead88839b35c78f22cca8a05bbacc",
+    "proofs/Erdos14PartI.lean": "496840684dd5dc4f0747bf4732ee4fe246340353f8a11aae00bde325fa100ca5",
+    "proofs/Erdos14PartIICounterexample.lean": "188ebf8bdf3a04694155ddf3e2d87c64f53d545781cfda7b63e21d6b1434cd74",
+    "papers/erdos108-arc-graphs.pdf": "e4a312c3cab6d892e572a213c5300b176064a1c4ece7e3df93278572a61d57cf",
+    "proofs/Erdos108.lean": "a0b65a62937486813884b5bbc9fb36a2bb6da42850a898126eddaecd5aaa0fa2",
+    "papers/erdos859-divisor-sums.pdf": "b32a2b9999df492ca132f3f2e84cb93243b778cc39525ae2a0d8b205cc0dc127",
+    "proofs/Erdos859Counterexample.lean": "bebc763e69acfecdbac6744e883eb44f26b560e11056c8d630201f01c4a112ee",
+    "papers/erdos-944.pdf": "77e311d97357f98fc33db89ddd63ca6fc3fc5c610bf90075cd9dc1077922ecb8",
+    "proofs/Erdos944.lean": "b89b43ce3470e9a3c51164f58f401a038260b0493e167fb6d8a5cf608bffd630",
+    "papers/erdos1062-fork-free-density.pdf": "f7fa42bf289cfd28e1dc022ba5262323c9b791a08e585338dc78d2fa2dd7d5ea",
+    "proofs/Erdos1062PartII.lean": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6"
+  },
+  "works": [
+    {
+      "id": "green-15",
+      "title": "A graph without repeated midpoints",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer · Liam Kruer. The manuscript credits substantial OpenAI Codex assistance and reports local Lean verification; no Lean replay was performed for this portfolio.",
+      "scope": "The visualization uses an exact finite prefix, not a proof of the infinite claim. No three-term AP does not mean no three collinear points. The manuscript supplies the descent argument and reports a kernel-checked Lean certificate. The Lean source is included; its target is Green15.green_15. The file contains no sorry, no added axiom, no native_decide and no unsafe declaration. That audit is static; the source was not recompiled for this portfolio, so it does not confirm that the proof elaborates against the pinned statement.",
+      "files": [
+        "papers/Green15-Kohlmeyer-Kruer.pdf",
+        "proofs/Green15.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "green-40",
+      "title": "Cover the cube in two moves",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer · Liam Kruer. The manuscript credits substantial OpenAI Codex assistance and reports local Lean verification; no Lean replay was performed for this portfolio. The manuscript credits a public Conjectures.io contribution for the sphere-covering lower bound.",
+      "scope": "The result concerns radius two, not the behavior of f(r) for arbitrarily large r. The small seed is an exact instance of the construction, not an asymptotically optimal code by itself. The Lean source is included; its target is Green40.green_40.f_two_eq_one, the radius-two case rather than the general statement. The file carries its own imports and Bounty namespace, contains no sorry, no added axiom, no native_decide and no unsafe declaration, and ends with its own #print axioms audit. That check is static; the source was not recompiled for this portfolio, so it does not confirm that the proof elaborates against the pinned statement.",
+      "files": [
+        "papers/green40-covering-codes.pdf",
+        "proofs/Green40RadiusTwo.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "green-47",
+      "title": "One point changes the answer",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer · Liam Kruer. The manuscript credits substantial OpenAI Codex assistance and reports local Lean verification; no Lean replay was performed for this portfolio.",
+      "scope": "This refutes exact containment only. Removing the single element 2 leaves a set of squares, so it does not refute versions allowing finitely many exceptions. The manuscript makes no priority claim and reports local, not hosted production, verification. The Lean source is included; its target is the negation of Green47.green_47. The file contains no sorry, no added axiom, no native_decide and no unsafe declaration. That audit is static; the source was not recompiled for this portfolio, so it does not confirm that the proof elaborates against the pinned statement.",
+      "files": [
+        "papers/Green47-Kohlmeyer-Kruer.pdf",
+        "proofs/Green47Counterexample.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "green-51",
+      "title": "Structure inside a sumset",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer · Liam Kruer. The manuscript credits substantial OpenAI Codex assistance and reports local Lean verification; no Lean replay was performed for this portfolio. Grant Huffman is thanked for a helpful insight.",
+      "scope": "The theorem answers the one-half-density part of Green 51. It does not determine the best subspace dimension at every density, and no optimality is claimed for the constants. The eight-point cube illustrates the statement; it is not the general proof. The Lean source is included; its target is Green51.green_51.one_half. The file contains no sorry, no added axiom, no native_decide and no unsafe declaration. That audit is static; the source was not recompiled for this portfolio, so it does not confirm that the proof elaborates against the pinned statement.",
+      "files": [
+        "papers/green51-one-half.pdf",
+        "proofs/Green51OneHalf.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "ordowski-2",
+      "title": "Ordowski’s second question: no odd solution",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript credits OpenAI Codex assistance with the argument, Lean formalization, finite computations, and manuscript preparation; the authors take responsibility for the content.",
+      "scope": "The Lean target is OeisA51903.conjecture2, with the answer resolved to False. The paper reports compilation with Lean 4.33.1 and only the standard axioms propext, Classical.choice, and Quot.sound. This portfolio does not replay that compilation. The explicit-base theorem and the even-solution classification are proved in the paper, rather than in the supplied Lean file. Ordowski’s separate fixed-base-2 question and infinitude of the even solutions remain outside this result.",
+      "files": [
+        "papers/ordowski-conjecture-2.pdf",
+        "proofs/OrdowskiConjecture2.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "bala-1",
+      "title": "Bala 1: the square endpoint",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscripts credit substantial OpenAI Codex assistance in mathematical exploration, proof development, Lean formalization, and manuscript preparation.",
+      "scope": "The exact Lean target is A79727Cubic.conjecture1. Conjectures 1 and 2 share this manuscript and Lean file. The paper reports Lean 4.33.1 compilation, comparison with the original Formal Conjectures types, and an audit admitting only standard axioms; the prime-level input is proved within the file. This portfolio independently checks the displayed residues, but does not replay the Lean compilation. The hypotheses restrict p to the stated residue classes.",
+      "files": [
+        "papers/bala-conjectures-1-and-2.pdf",
+        "proofs/BalaConjectures1And2.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "bala-2",
+      "title": "Bala 2: the shortened sum",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscripts credit substantial OpenAI Codex assistance in mathematical exploration, proof development, Lean formalization, and manuscript preparation.",
+      "scope": "The exact Lean target is A79727Cubic.conjecture2, in the same source as Conjecture 1. The manuscript reports a complete proof, comparison with the original Formal Conjectures statement, and only standard axiom dependencies. The finite plateau and all displayed term residues are checked independently here; the Lean compilation is not replayed. The result applies to primes in the three stated residue classes, rather than to arbitrary moduli.",
+      "files": [
+        "papers/bala-conjectures-1-and-2.pdf",
+        "proofs/BalaConjectures1And2.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "bala-4",
+      "title": "Bala 4: square divisibility",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscripts credit substantial OpenAI Codex assistance in mathematical exploration, proof development, Lean formalization, and manuscript preparation.",
+      "scope": "The Lean source proves A79727Proof.conjecture4 and the stronger A79727Proof.all_odd_multiples; it also proves the needed prime-level input and square identity. The paper reports Lean 4.33.1 verification, exact source-type comparison, and only standard axiom dependencies. This portfolio checks the displayed finite sums without replaying that compilation. Repeated factors or additional primes retain the p² conclusion for each eligible p; n² divisibility is asserted only under the squarefree-product hypotheses. Bala’s separate third conjecture is not addressed by these files.",
+      "files": [
+        "papers/bala-conjecture-4.pdf",
+        "proofs/BalaConjecture4.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "wilson-integrality",
+      "title": "Wilson: when a reciprocal determinant is an integer",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript credits substantial OpenAI Codex assistance in proof development, exact computations, Lean formalization, and manuscript preparation; the authors take responsibility for the content.",
+      "scope": "The supplied Lean file imports only Mathlib and proves OeisA60841.conjecture1 and WilsonA060841.two_adic_negative. The manuscript reports Lean 4.33.1 verification with only propext, Classical.choice, and Quot.sound; its finite cases use reduction in the kernel. This portfolio independently checks all displayed rational products and valuations, and compares small cases with exact matrix elimination, without replaying the Lean compilation. Wilson’s separate assertion that every denominator is a power of two is outside the integrality classification.",
+      "files": [
+        "papers/wilson-integrality-a060841.pdf",
+        "proofs/Wilson_Integrality_Conjecture_A060841.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "sauras-altuzarra-1",
+      "title": "Sauras Altuzarra I: an exact denominator",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript credits OpenAI Codex assistance with mathematical development, Lean formalization, and manuscript preparation.",
+      "scope": "The supplied Lean file imports only Mathlib and proves SaurasAltuzarraConjectureI.exact_denominator and SaurasAltuzarraConjectureI.conjecture1. The manuscript reports verification with Lean 4.33.1, comparison with the pinned OeisA46969.conjecture1 type, and only propext, Classical.choice, and Quot.sound as axiom dependencies. This portfolio independently checks the five displayed examples using two exact Bernoulli calculations, without replaying the Lean compilation. The result assumes p > 3 and both primality hypotheses, and makes no claim that infinitely many such primes exist.",
+      "files": [
+        "papers/sauras-altuzarra-conjecture-i.pdf",
+        "proofs/SaurasAltuzarraConjectureI.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "triangular-matchstick-prime-sums",
+      "title": "A Counterexample to the Square Conjecture for Triangular Matchstick Prime Sums",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript credits OpenAI Codex assistance with the computational search, independent verification, Lean formalization, and manuscript preparation; the human authors provide the computations, source, and trust assumptions for review.",
+      "scope": "The supplied Lean file proves A105720.counterexample_value and A105720.conjecture_false using the actual OeisA105720.a definition; it does not use the unproved repository conjecture. The paper and verification report record Lean 4.33.1 checking. Four native_decide checks introduce generated evaluation axioms for the two finite grids and two sieve outputs, so the final result trusts the compiler/runtime as well as the standard foundational axioms. The generic correctness arguments are ordinary Lean proofs. This portfolio freshly recomputes the exact prime-prefix certificate with the supplied Python verifier without replaying Lean. The counterexample does not classify all square terms or establish infinitely many of them.",
+      "files": [
+        "papers/triangular-matchstick-prime-sums.pdf",
+        "proofs/TriangularMatchstickPrimeSums.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "sun-5",
+      "title": "Sun 5: gaps that never disappear",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript credits OpenAI Codex assistance in mathematical exploration, construction of the counterexample family, proof development, Lean formalization, and manuscript preparation; the human authors retain responsibility for final review and submission.",
+      "scope": "The supplied Lean file proves SunConjecture5.sun_conjecture5_false, the negation of the exact type of OeisA160324.conjecture5. It extracts that type without invoking the repository’s admitted proof. The file also proves the closed formula, positivity, nₖ ≥ k, arbitrarily large natural-index exceptions, and nonrepresentation for integer indices. The paper reports Lean 4.33.1 checking against its pinned Formal Conjectures and Mathlib revisions, with only propext, Classical.choice, and Quot.sound. The source contains no admitted proof, custom axiom, native_decide or unsafe declaration; this is a static audit, without replaying Lean here. The explorer independently checks all displayed finite representation counts in both index domains. The other A160324 assertions, including square–pentagonal–hexagonal universality and the version allowing an extra remainder, remain outside this result.",
+      "files": [
+        "papers/sun-conjecture-5.pdf",
+        "proofs/SunConjecture5.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "wong-235893",
+      "title": "Wong: connectedness in one direction",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The manuscript attributes the recurrent-tube and colored-subarc strategy to L. Peter and the singular-ray interval-density device to Gro-Tsen, and makes no priority claim for those ideas. Its contribution is the explicit planar implementation by ambient shears and the reported Lean verification of the exact repository statement. OpenAI Codex assisted with mathematical development, manuscript drafting, and Lean formalization.",
+      "scope": "The exact Lean target is Wong235893.wong235893_repository_answer: False ↔ the universal assertion in Mathoverflow235893.mathoverflow_235893. The unconditional witness is Wong235893.wongCounterexample; companion theorems prove forward preservation, inverse failure, and a compact nontrivial connected arc with Cantor preimage. The supplied source compares the original declaration’s type without using its admitted proof and includes a namespace-wide audit allowing only propext, Classical.choice, and Quot.sound. No admitted proof, custom axiom, native_decide or unsafe declaration was found in the supplied source. Section 8 reports checking with Lean 4.33.1, Mathlib 0df444a and Formal Conjectures 89294ea; this portfolio does not replay Lean. The dimension-two construction refutes the universal assertion, without claiming a construction in every higher dimension. The explorer checks finite Cantor enclosures and the rational separation witnesses; it does not implement the noncomputable planar bijection.",
+      "files": [
+        "papers/wong-235893.pdf",
+        "proofs/Wong235893.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "dillies-convex-vc2",
+      "title": "Dillies: the convex VC₂ bound in ℝ³",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. The conjecture is attributed to Yaël Dillies. The manuscript cites Kenta Kitamura’s earlier lower-bound example and general finite bound as prior work, and credits OpenAI Codex assistance with exploratory computations, proof development, Lean formalization, and manuscript preparation.",
+      "scope": "The supplied Lean target is VCDimConvex.hasAddVCNDimAtMost_two_two_of_convex_r3, with the statement Convex ℝ C → HasAddVCNDimAtMost C 2 2 for C : Set ℝ³. It imports the additive VC definition and Euclidean-space notation, without importing or invoking the repository’s admitted conjecture proof. The written statement agrees with the public declaration inspected at revision 2f1d3aedc932b94d215d0ac915ae56d57da13408; this is a source comparison, not a kernel type check. Sections 5–6 report Lean 4.33.1 checking with Mathlib 0df444a and Formal Conjectures 8432eac, and only propext, Classical.choice, and Quot.sound. That reported Formal Conjectures revision was unavailable on public GitHub when this entry was added, so the source link uses the inspected public revision. No admitted proof, custom axiom, native_decide or unsafe declaration was found in the supplied file; Lean was not replayed here. The result concerns additive VC₂ dimension, not an upper bound on ordinary VC dimension or a general sharp bound in all dimensions. The lower-bound example cited in the paper is separate prior work. The explorer checks the displayed masks and two rational strip layouts; the general proof remains in the paper and Lean source.",
+      "files": [
+        "papers/dillies-convex-vc2.pdf",
+        "proofs/DilliesConvexVC2Conjecture.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "bala-a141057",
+      "title": "Bala A141057: congruences at integer indices",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer. Peter Bala proposed the conjecture in April 2022. Epoch Research’s published positive-index Lean proof, revision f02efd9a8c5fc6a735d2a90c33e24f7278ce0ffc, is prior work and is reproduced and adapted with attribution in the supplied file. The manuscript credits OpenAI Codex assistance with exploration, the signed-index argument, exact computations, Lean formalization and manuscript preparation. It makes no publication-priority claim for the negative-index extension.",
+      "scope": "The supplied theorem BalaA141057.integer_supercongruence has the written statement of OeisA141057.conjecture2, using the source definition aInt, nonzero integer n, prime p ≥ 5 and r ≥ 1. The public declaration was inspected at revision 89294ea02bd7cd678d59984add52cb4baef3dbf4. The file imports that module for its definitions, reproduces and adapts Epoch Research’s prior positive-index proof in PriorPositive, and proves the negative case separately; it does not invoke the repository’s admitted conjectures as proof premises. Its trailing commands compare the final type with conjecture2 and reject dependencies beyond propext, Classical.choice and Quot.sound. Section 5 reports successful Lean 4.33.1 checking, exact type agreement and those standard axioms. No admissions, custom axioms, native_decide or unsafe declarations were found in the supplied source; these are static observations, and Lean was not replayed here. The formal target is the scalar modulus p³ʳ. The stronger modulus and general coefficientwise q ≥ 3 theorem are mathematical results in the paper. No claim for p = 2 or 3, or an infinite continuation of the negative sum, is made. The explorer independently checks fourteen signed examples through |N| = 50, including p dividing n and r = 2; it does not reproduce the manuscript’s larger computational report or establish the unrestricted theorem.",
+      "files": [
+        "papers/bala-a141057-supercongruence.pdf",
+        "proofs/BalaA141057Conjecture.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "quartic-minimal-graphs",
+      "title": "Quartic minimal graphs are affine",
+      "authors_and_acknowledgments": "Will Howe, Grant Huffman, Jensen Kohlmeyer, and Liam Kruer. The manuscripts disclose OpenAI Codex assistance in mathematical exploration, proof development, formalization, and manuscript preparation.",
+      "scope": "The domain dimension is arbitrary; the graph has codimension one. This is a degree-at-most-four statement, not an unrestricted polynomial theorem in every dimension. The supplied Lean submission body ends in Bounty.target for Math30Catalog.source28. It requires the catalog validator’s imports and surrounding namespace. The manuscript reports kernel verification with standard axioms; this portfolio statically scans the source and does not replay that build.",
+      "files": [
+        "papers/quartic-minimal-graphs.pdf",
+        "proofs/QuarticMinimalGraphs.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "minimal-graphs-dimension-eight",
+      "title": "Polynomial minimal graphs in dimension eight",
+      "authors_and_acknowledgments": "Will Howe, Grant Huffman, Jensen Kohlmeyer, and Liam Kruer. The manuscripts disclose OpenAI Codex assistance in mathematical exploration, proof development, formalization, and manuscript preparation.",
+      "scope": "Dimension eight refers to the domain; the hypersurface lies in ℝ⁹. The result concerns polynomials of arbitrary degree, not all entire minimal graphs. The supplied Lean body targets Math30Catalog.source29 and requires ResearchTargets.Math30, TaskSupport and the validator’s Bounty namespace. The paper records standard-axiom verification, including a local audit on October 9. The portfolio statically inspects that source but does not recompile it. The written and formal arguments are distinct routes to the same target.",
+      "files": [
+        "papers/polynomial-minimal-graphs-dimension-eight.pdf",
+        "proofs/PolynomialMinimalGraphsDimensionEight.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos-14",
+      "title": "Erdős 14",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer",
+      "scope": "See the manuscript and the problem-specific submission evidence.",
+      "files": [
+        "papers/erdos-14.pdf",
+        "proofs/Erdos14PartI.lean",
+        "proofs/Erdos14PartIICounterexample.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos-108",
+      "title": "Erdős 108",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer",
+      "scope": "See the manuscript and the problem-specific submission evidence.",
+      "files": [
+        "papers/erdos108-arc-graphs.pdf",
+        "proofs/Erdos108.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos-859",
+      "title": "Erdős 859",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer",
+      "scope": "See the manuscript and the problem-specific submission evidence.",
+      "files": [
+        "papers/erdos859-divisor-sums.pdf",
+        "proofs/Erdos859Counterexample.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos-944",
+      "title": "Erdős 944",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer",
+      "scope": "See the manuscript and the problem-specific submission evidence.",
+      "files": [
+        "papers/erdos-944.pdf",
+        "proofs/Erdos944.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    },
+    {
+      "id": "erdos-1062",
+      "title": "Erdős 1062",
+      "authors_and_acknowledgments": "Jensen Kohlmeyer and Liam Kruer",
+      "scope": "See the manuscript and the problem-specific submission evidence.",
+      "files": [
+        "papers/erdos1062-fork-free-density.pdf",
+        "proofs/Erdos1062PartII.lean"
+      ],
+      "build_status": "Source preserved; a fresh reproduction is recorded only where a verification report explicitly says PASS."
+    }
+  ]
+}

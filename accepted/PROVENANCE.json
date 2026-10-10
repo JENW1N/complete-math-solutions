@@ -1,0 +1,58 @@
+[
+  {
+    "id": "erdos944",
+    "record": "https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70",
+    "download": "https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution/download",
+    "path": "accepted/erdos944.lean",
+    "bytes": 459268,
+    "sha256": "8bf7cd0e83463e5f304ad848921c5078d57e8f3411050e705c69a69822abecd5"
+  },
+  {
+    "id": "erdos14i",
+    "record": "https://conjectures.io/results/dce3d778-6f52-4c27-8da0-c82d2f391b64",
+    "download": "https://conjectures.io/results/dce3d778-6f52-4c27-8da0-c82d2f391b64/solution/download",
+    "path": "accepted/erdos14i.lean",
+    "bytes": 49184,
+    "sha256": "496840684dd5dc4f0747bf4732ee4fe246340353f8a11aae00bde325fa100ca5"
+  },
+  {
+    "id": "erdos14ii",
+    "record": "https://conjectures.io/results/adb53fba-0b01-4398-abab-cb9b2176eebc",
+    "download": "https://conjectures.io/results/adb53fba-0b01-4398-abab-cb9b2176eebc/solution/download",
+    "path": "accepted/erdos14ii.lean",
+    "bytes": 46599,
+    "sha256": "188ebf8bdf3a04694155ddf3e2d87c64f53d545781cfda7b63e21d6b1434cd74"
+  },
+  {
+    "id": "erdos108",
+    "record": "https://conjectures.io/results/8c083793-9c3c-4960-8a23-869e54fcb584",
+    "download": "https://conjectures.io/results/8c083793-9c3c-4960-8a23-869e54fcb584/solution/download",
+    "path": "accepted/erdos108.lean",
+    "bytes": 84521,
+    "sha256": "a0b65a62937486813884b5bbc9fb36a2bb6da42850a898126eddaecd5aaa0fa2"
+  },
+  {
+    "id": "erdos859",
+    "record": "https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19",
+    "download": "https://conjectures.io/results/e060355f-a728-4b06-af11-6302b5780d19/solution/download",
+    "path": "accepted/erdos859.lean",
+    "bytes": 1721167,
+    "sha256": "c8011826d105daecca4de0f0a58cc4acd887eafd1a78a9e8c9095c399ca97aea"
+  },
+  {
+    "id": "erdos1062",
+    "record": "https://conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc",
+    "download": "https://conjectures.io/results/8d59a0af-6762-4606-93c9-72dd356a57bc/solution/download",
+    "path": "accepted/erdos1062.lean",
+    "bytes": 4965602,
+    "sha256": "2ebc87b06386daf9720ac037996ce87eb760dc58097cd098ec6620b1c7df92b6"
+  },
+  {
+    "id": "erdos272",
+    "record": "https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff",
+    "download": "https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff/solution/download",
+    "path": "accepted/erdos272.lean",
+    "bytes": 600125,
+    "sha256": "38201774f640e9c673b5e2a7821a1f031adf5bcf59ada9316fcde1f5455ba5bb"
+  }
+]
