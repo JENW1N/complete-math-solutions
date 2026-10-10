@@ -1,5 +1,10 @@
 import FormalConjectures.ErdosProblems.«1062»
 import TaskSupport
+
+-- Suppress style lint during replay of the preserved, large accepted body.
+set_option linter.all false
+set_option linter.defProp false
+set_option linter.style.moduleDocstring false
 namespace Bounty
 end Bounty
 

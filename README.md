@@ -48,6 +48,29 @@ The wrappers under `Solutions/` each print the target and its complete axiom clo
 
 A full fresh proof compilation can be lengthy, especially for Erdős 1062. Logs report cached-library reuse explicitly; they do not claim a fresh build of Lean or all of Mathlib.
 
+### Complete Erdős 1062 target
+
+`Solutions/Erdos1062Full.lean` exports the exact finite formula for every natural
+`n`, together with convergence to the explicit irrational density. Its
+`Erdos1062Full.full_scope` statement covers both parts of the original question;
+`Solutions/Erdos1062.lean` retains the original part (ii) proof development.
+The wrapper states the finite formula using explicit arithmetic functions,
+without an `answer` placeholder. See [the scope and source map](notes/erdos1062-full-scope.md).
+
+Reproduce the complete target and inspect every exported theorem's transitive
+axiom closure with:
+
+```sh
+python3 scripts/reproduce_erdos1062_full.py
+```
+
+The script writes `verification/erdos1062-full.json` and separate build/axiom
+logs. A report is successful only when compilation and the fresh axiom audit
+succeed, every exported theorem uses only `propext`, `Classical.choice`, and
+`Quot.sound`, and the combined theorem's closure is exactly those three axioms.
+The [provenance note](PROVENANCE.md) distinguishes the original September
+accepted body from the October complete-scope wrapper and local verification.
+
 ## Catalog scope under review
 
 The following manuscripts settle separately stated original questions. The broader JSP entries require a scope ruling before a complete-solution catalog submission.
