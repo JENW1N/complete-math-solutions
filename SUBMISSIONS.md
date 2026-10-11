@@ -13,6 +13,12 @@ This batch submits complete original questions and preserves the distinction bet
 
 All four PRs are open and attached to the chat. Remote bodies match the prepared bodies, and each diff changes only permitted fields of one relevant catalog. The first three include complete original Lean proof records and local successful checks. Erdős 1062 is a complete mathematical submission; its accepted Lean theorem is only the separately identified irrational-limit part (ii), so the PR does not claim a complete formalization of the whole catalog entry.
 
+## Erdős 354 complete-package follow-up — 10 October 2026
+
+[PR #5000](https://github.com/TheJustinSunPrize/awards/pull/5000) now submits the complete base-two and variable-base package for JSP-000294. [Source commit `af9feb6c310f5cea035e4ec34400c43fec01817e`](https://github.com/JENW1N/complete-math-solutions/tree/af9feb6c310f5cea035e4ec34400c43fec01817e/proofs/erdos354) contains all twelve verified Lean modules, source-hashed compilation logs, a mathematical proof note, pinned dependencies, and component notices. The package proves the base-two statement, a fixed working base in (1,2), and an unconditional counterexample to the universal variable-base statement. It does not claim a classification of all bases.
+
+Attribution is separate: Kohlmeyer–Kruer for base two, Kitamura for the existing existential-base proof, Geneson for the earlier universal negative answer, and Kohlmeyer with Codex assistance for the new counterexample formalization and integration. The original scope-only limitation for 354(i) below is superseded by this submission. JSP review and any award decision remain pending.
+
 ## Existing submissions and attribution
 
 | Result | Existing PR | Action / scope |
@@ -60,10 +66,10 @@ All 18 recommendation issues were read back from GitHub: open, authored by JENW1
 - Erdős 18(b): factorial divisor counts, rather than every practical-number question in JSP-000055.
 - Erdős 96: refutation of the linear-bound conjecture, rather than an exact extremal growth formula in JSP-000109.
 - Erdős 272: Szabó’s N²/2 + O(N) conjecture, rather than an exact extremal formula in JSP-000233.
-- Erdős 354(i): multiplier two, rather than the separate multiplier range (1,2) in JSP-000294.
+- Erdős 354: originally multiplier two only. This limitation is superseded by [complete-package PR #5000](https://github.com/TheJustinSunPrize/awards/pull/5000), which includes both variable-base readings with explicit attribution.
 - Erdős 790: the two explicitly posed subsidiary questions and the exponent-one estimate, rather than an exact extremal order in JSP-000649. The existing PR is a draft and its early award claim is withdrawn.
 
-No broader record was marked solved on the strength of these narrower statements. The complete named questions can proceed once JSP confirms a suitable target/ID.
+No broader record was marked solved on the strength of the narrower statements. The four remaining scope questions can proceed once JSP confirms a suitable target/ID; the complete 354 package has now been submitted separately.
 
 ## Source edition and verification
 
@@ -79,9 +85,9 @@ Local successful Lean checks: 14(i), 14(ii), 108, 944, 859. Each target’s comp
 - JSP maintains the index, eligibility and award decisions. Recommendations require catalog acceptance before a contribution can be filed against a new ID.
 - Individual award claims follow the prerequisite merged submission and identity process. No proxy claim was filed for Liam, and no private identity or payment information was published.
 - Existing #289 still needs its author to merge [repair PR lkruer/awards#1](https://github.com/lkruer/awards/pull/1) or apply its prepared commit; JENW1N has no push or merge permission to lkruer/awards. The corrected branch merges without conflicts into current JSP main.
-- The latest check found all ten related JSP PRs unmerged, including the scope-review draft #4701. The 18 recommendations and five-entry scope request remain open with no maintainer response. No Jensen/Liam contribution is directly recorded in current upstream problems, candidates or awards, so the recorded-solver exception is not currently available.
+- The original batch check found all ten then-related JSP PRs unmerged, including the scope-review draft #4701. The 18 recommendations and five-entry scope request remain open with no maintainer response. No Jensen/Liam contribution is directly recorded in current upstream problems, candidates or awards, so the recorded-solver exception is not currently available.
 - Early claim #4702 was edited and closed to remove active award consideration, the outdated representative/payee language, and any implication that this claim establishes accepted scope or priority. A future claim requires the applicable review, merged contribution and identity process.
 
 ## Portfolio coverage check
 
-[PORTFOLIO_COVERAGE.json](https://github.com/JENW1N/complete-math-solutions/blob/main/PORTFOLIO_COVERAGE.json) maps all 34 unique entries loaded by the supplied portfolio’s three content scripts at commit `75e0415ab82aaa8aeb2c0a8c475a19eeb0e531f1`: 8 entries have contribution PRs, 4 have precise-scope requests, 19 are covered by problem recommendations, and 3 are excluded at the user’s request. The two five-leaf entries share one complete-question recommendation. Existing 790, 906 and the additional Green 24 record are listed separately. These are coverage and submission records, not proof of prize approval.
+The original batch snapshot in [PORTFOLIO_COVERAGE.json](https://github.com/JENW1N/complete-math-solutions/blob/main/PORTFOLIO_COVERAGE.json) maps all 34 unique entries loaded by the supplied portfolio’s three content scripts at commit `75e0415ab82aaa8aeb2c0a8c475a19eeb0e531f1`: 8 entries have contribution PRs, 4 have precise-scope requests, 19 are covered by problem recommendations, and 3 are excluded at the user’s request. The two five-leaf entries share one complete-question recommendation. Existing 790, 906 and the additional Green 24 record are listed separately. These are coverage and submission records, not proof of prize approval.
