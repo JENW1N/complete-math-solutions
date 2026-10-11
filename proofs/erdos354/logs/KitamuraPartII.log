@@ -1,0 +1,2 @@
+'Erdos354PartIIProof.erdos_354_part_ii_solved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354PartIIProof.single_complete' depends on axioms: [propext, Classical.choice, Quot.sound]

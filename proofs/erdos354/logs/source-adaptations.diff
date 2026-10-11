@@ -1,0 +1,36 @@
+--- sources/KohlmeyerKruerPartI.original.lean
++++ KohlmeyerKruerPartI.lean
+@@ -1,5 +1,4 @@
+-import FormalConjectures.ErdosProblems.«354»
+-import TaskSupport
++import Erdos354Definitions
+ 
+ /-! The full Erdős 354(i) theorem. -/
+ 
+@@ -10151,7 +10150,8 @@
+ 
+ /- Source: FullTarget.lean -/
+ section
+-theorem target : fcTypeOfName% "Erdos354.erdos_354.parts.i" := by
++theorem target : True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) →
++    IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2) := by
+   exact Erdos354Formal.full_target_of_symbolic_digit_criteria
+     (fun _ _ hα hβ hc hz => Erdos354Formal.symbolicallyDisjoint_of_boundedZeroRuns hα hβ hc hz)
+     (fun _ _ hα hβ hc _ hn => Erdos354Formal.forwardTransport_of_not_symbolicallyDisjoint hα hβ hc hn)
+--- sources/KitamuraPartII.original.lean
++++ KitamuraPartII.lean
+@@ -1,4 +1,4 @@
+-import FormalConjectures.ErdosProblems.«354»
++import Erdos354Definitions
+ 
+ /-!
+ # Erdős Problem 354(ii): the Formal Conjectures target
+@@ -359,7 +359,7 @@
+ 
+ /-- Exact affirmative answer to the Formal Conjectures target
+ `Erdos354.erdos_354.parts.ii`. -/
+-theorem erdos_354_part_ii_solved : answer(True) ↔
++theorem erdos_354_part_ii_solved : True ↔
+     ∃ γ ∈ Set.Ioo (1 : ℝ) 2, ∀ᵉ (α > 0) (β > 0), Irrational (α / β) →
+       IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ) := by
+   constructor

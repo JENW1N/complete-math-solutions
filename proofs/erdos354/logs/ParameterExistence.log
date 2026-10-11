@@ -1,0 +1,4 @@
+'Erdos354Parameters.small_fractional_parts_exist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Parameters.even_counterexample_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Parameters.universal_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Parameters.universal_variable_base_false' depends on axioms: [propext, Classical.choice, Quot.sound]

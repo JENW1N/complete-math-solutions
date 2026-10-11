@@ -1,0 +1,1 @@
+'Erdos354Parameters.exists_geometric_asymptote' depends on axioms: [propext, Classical.choice, Quot.sound]

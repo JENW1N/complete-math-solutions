@@ -1,0 +1,22 @@
+def Erdos354.FloorMultiples : ℝ → ℝ → ℕ → ℤ :=
+fun a γ n => ⌊γ ^ n * a⌋
+def Erdos354.FloorMultiples.interleave : ℝ → ℝ → ℝ → ℕ → ℤ :=
+fun a b γ n => if n % 2 = 0 then Erdos354.FloorMultiples a γ (n / 2) else Erdos354.FloorMultiples b γ (n / 2)
+def subseqSums'.{u_1} : {M : Type u_1} → [AddCommMonoid M] → (ℕ → M) → Set M :=
+fun {M} [AddCommMonoid M] A => {n | ∃ B, n = ∑ i ∈ B, A i}
+def IsAddCompleteNatSeq'.{u_1} : {M : Type u_1} → [AddCommMonoid M] → [Preorder M] → (ℕ → M) → Prop :=
+fun {M} [AddCommMonoid M] [Preorder M] A => ∀ᶠ (k : M) in Filter.atTop, k ∈ subseqSums' A
+Erdos354Parameters.small_fractional_parts_exist : Erdos354Combined.SmallFractionalPartsExist
+Erdos354Parameters.universal_counterexample :
+  ∃ γ ∈ Set.Ioo 1 2,
+    ∃ α > 0, ∃ β > 0, Irrational (α / β) ∧ ¬IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ)
+Erdos354Full.variable_base_answer :
+  False ↔
+    ∀ γ ∈ Set.Ioo 1 2,
+      ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ)
+Erdos354Full.full_solution :
+  (∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)) ∧
+    (∃ γ ∈ Set.Ioo 1 2,
+        ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ)) ∧
+      ∃ γ ∈ Set.Ioo 1 2,
+        ∃ α > 0, ∃ β > 0, Irrational (α / β) ∧ ¬IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β γ)

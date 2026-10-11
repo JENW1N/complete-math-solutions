@@ -1,0 +1,3 @@
+'Erdos354Combined.not_complete_of_all_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Combined.universal_false_of_even_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Combined.universal_false_of_small_fractional_parts' depends on axioms: [propext, Classical.choice, Quot.sound]

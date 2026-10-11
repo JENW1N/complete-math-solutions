@@ -1,0 +1,2 @@
+'Erdos354Full.variable_base_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Full.full_solution' depends on axioms: [propext, Classical.choice, Quot.sound]

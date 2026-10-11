@@ -65,3 +65,7 @@ These listings do not assert that every question grouped into the corresponding 
 ## Submission record
 
 See [PORTFOLIO_COVERAGE.json](PORTFOLIO_COVERAGE.json) for the disposition of all 34 supplied portfolio entries. See [SUBMISSIONS.md](SUBMISSIONS.md) for the filed catalog PRs, unlisted-problem recommendations, exact-scope requests, source chronology and remaining maintainer/author actions.
+
+## Additional complete proof packages
+
+- [Erdős 354: base two and both variable-base readings](proofs/erdos354/README.md). This standalone Lean 4.33.1 package includes the Kohlmeyer–Kruer base-two proof, Kitamura’s credited existential-base proof, and Kohlmeyer’s new counterexample formalization using a six-term recurrence. Run its commands from `proofs/erdos354`; it has its own pinned Lake configuration. Original component authors and earlier mathematical results are distinguished in its [proof note](proofs/erdos354/PROOF.md) and [NOTICE](proofs/erdos354/NOTICE).

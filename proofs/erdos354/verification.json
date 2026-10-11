@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-11T02:26:28.583231+00:00",
+  "lean": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "modules": [
+    {
+      "module": "Erdos354Definitions",
+      "exit_code": 0,
+      "seconds": 29.57,
+      "sha256": "06688c81a615002efce89853393c3569f85dbcc18d7db2c03a37fa290e1796e2"
+    },
+    {
+      "module": "KohlmeyerKruerPartI",
+      "exit_code": 0,
+      "seconds": 27.46,
+      "sha256": "fe2c14abf46d81586a1e2f79ad51708851908a75dfef859fa1e563a64e0ab19a"
+    },
+    {
+      "module": "KitamuraPartII",
+      "exit_code": 0,
+      "seconds": 8.41,
+      "sha256": "40351cf0d2178d0514a7fbd3e25bc7d5802bf4c997421c3ec245424ef2151031"
+    },
+    {
+      "module": "Combined",
+      "exit_code": 0,
+      "seconds": 5.81,
+      "sha256": "0973cd305c4e92285a8fbb6d2aac2c67f24ce4fa70bb24afde80e8c8205db826"
+    },
+    {
+      "module": "QuantifierObstruction",
+      "exit_code": 0,
+      "seconds": 6.02,
+      "sha256": "245da726662c34d61d0b4e94255c6fbe5286a800670056832600da946e02d8f1"
+    },
+    {
+      "module": "RecurrenceDecay",
+      "exit_code": 0,
+      "seconds": 5.5,
+      "sha256": "de6f2c474ed1404895f8d8ba2f7a02f721f740098ab5fad7fb188b9a71fa10bc"
+    },
+    {
+      "module": "MultinacciBase",
+      "exit_code": 0,
+      "seconds": 5.67,
+      "sha256": "76f7ac7a76b85a38769861f1da9c79d0edff9a24f6969b91103acd8c77962803"
+    },
+    {
+      "module": "MultinacciAsymptotic",
+      "exit_code": 0,
+      "seconds": 5.52,
+      "sha256": "00d8ccf1cf99853556d276f34159bfb36aba188186a6ce53f8fbb9316dedd42b"
+    },
+    {
+      "module": "MultinacciIntegers",
+      "exit_code": 0,
+      "seconds": 5.34,
+      "sha256": "03e64a020a0e93ee9ffcf88832e7a0421cd239d17781c8a01be2bc8477aae16f"
+    },
+    {
+      "module": "ParameterExistence",
+      "exit_code": 0,
+      "seconds": 4.59,
+      "sha256": "9d9d95a5262962f56d2a0065b450c1289b12a90a49500b702560a3ce1bf687d5"
+    },
+    {
+      "module": "FullSolution",
+      "exit_code": 0,
+      "seconds": 4.39,
+      "sha256": "43bb9efad99b78f3d3677d7b2527cc0b9f74437e8d416912aefc614b6d99cb63"
+    },
+    {
+      "module": "AuditDefinitions",
+      "exit_code": 0,
+      "seconds": 4.46,
+      "sha256": "fabfc76b5b96a72099de9078e4b3d6ac0c8126a75ea2b9dc64daf7d46208df74"
+    }
+  ],
+  "axiom_audit": {
+    "Erdos354PartIIProof.erdos_354_part_ii_solved": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354PartIIProof.single_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.part_i": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.part_ii_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.single_sqrt_phi_complete": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.combined_current_targets": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.not_complete_of_all_even": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.universal_false_of_even_counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Combined.universal_false_of_small_fractional_parts": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.tendsto_zero_of_subconvex_recurrence": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.base_irrational": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.exists_geometric_asymptote": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.exists_positive_fractional_part_witness": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.small_fractional_parts_exist": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.even_counterexample_exists": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.universal_counterexample": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Parameters.universal_variable_base_false": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Full.variable_base_answer": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Erdos354Full.full_solution": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "library_dependency": {
+    "name": "mathlib",
+    "revision": "0df444a360eaa60ab8c11dca51a86af692955474"
+  },
+  "formal_conjectures_runtime_dependency": false
+}

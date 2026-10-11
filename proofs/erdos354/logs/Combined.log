@@ -1,0 +1,4 @@
+'Erdos354Combined.part_i' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Combined.part_ii_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Combined.single_sqrt_phi_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos354Combined.combined_current_targets' depends on axioms: [propext, Classical.choice, Quot.sound]

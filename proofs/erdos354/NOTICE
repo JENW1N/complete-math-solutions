@@ -1,0 +1,23 @@
+Component attribution for the Erdős 354 proof package
+
+Erdos354Definitions.lean reproduces definitions from the Formal Conjectures
+project, copyright 2025 The Formal Conjectures Authors, under Apache-2.0.
+
+KitamuraPartII.lean is adapted from Kenta Kitamura's Erdős 354(ii) proof at
+KitaKen1/erdos-354-part-ii commit 5536b1874d734cfaac522a379722b8cd828dd343.
+It is used under Apache-2.0; its import was replaced by the matching local
+common definitions. Its mathematical proof and authorship are unchanged.
+Original source: sources/KitamuraPartII.original.lean.
+
+KohlmeyerKruerPartI.lean contains the original base-two proof by
+Jensen Kohlmeyer and Liam Kruer, adapted only to the matching local common
+definitions. Original source: sources/KohlmeyerKruerPartI.original.lean.
+
+The recurrence construction, counterexample formalization, integration, and
+associated exposition were prepared for Jensen Kohlmeyer with Codex assistance
+on 10 October 2026. They use the parity mechanism from Jesse Geneson's earlier
+universal counterexample and reference the number family discussed by Dubickas
+(2006). Neither earlier mathematical priority nor Kitamura's authorship is
+claimed for the submitter. See README.md and PROOF.md for the precise scope.
+
+The included Apache-2.0 license governs the identified third-party components.
